@@ -74,6 +74,27 @@
 
             <!-- Error Page-->
             <section role="region">
+                <div class="container col-12">
+                    <h2>Your Image was not Found!</h2>
+                    <p>Choose to search for Planets, Stars, or Nebula</p>
+                    <form class="js-search-options">
+                            <button>Search Planets</button>
+                            <button>Search Stars</button>
+                            <button>Search Nebula</button>
+                    </form>
+                    <p>Or ...Please try again!</p>
+                    <p>Which Planet do you want to View?</p>
+                    <form class='searchPlanet'>
+                        <div>
+                            <label for="planet">Search Planet</label>
+                            <!--Removing required on this input because they can also choose other Planets/Stars/Nebula buttons-->
+                            <input type="text" id="planet" name="planet"> 
+                            <button type="submit">Search</button>
+                        </div>
+                    </form>
+                    <p>Possible search options: Mercury, Venus, Neptune</p>
+
+                </div>
 
             </section>
 
